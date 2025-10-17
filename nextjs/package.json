@@ -1,0 +1,33 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^6.0.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "next": "15.5.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20.19.22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@unocss/preset-attributify": "^66.5.4",
+    "@unocss/preset-icons": "^66.5.4",
+    "@unocss/preset-uno": "^66.5.4",
+    "@unocss/transformer-directives": "^66.5.4",
+    "@unocss/webpack": "^66.5.4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.6",
+    "typescript": "^5",
+    "unocss": "^66.5.4"
+  }
+}
